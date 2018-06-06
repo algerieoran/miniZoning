@@ -1,15 +1,65 @@
 @charset "utf-8";
 
 body {
-    background: pink;
+    background-color: bisque;
+    margin: 0 auto;
+    color: white;
 }
-conteneur {
+#conteneur {
+    border: 1px;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
     background: white;
+    width: 1000px;
+    height: 1000px;
+
 }
 header {
     background: olive;
-    font-family: bold;
+    width: 1000px;
+    height: 150px;
+  
 }
 nav {
-    background: aqua;
+    background: orange;
+    width: 1000px;
+    height: 50px;
+}
+.p1 {
+    background-color: #333;
+    width: 100px;
+    float: left;
+    padding: 10px;
+}
+aside {
+    background-color: blue;
+    width: 100px;
+    height: 100px;;
+    float: right;
+    padding: 10px;
+}
+
+section {
+    background: lightgreen;
+    float: right;
+    width: 800px;
+    height: 100px;
+}
+article {
+ background-color: lightskyblue;
+ float: left; 
+ width: 500px;
+ height: 60px; 
+}
+.p2 {
+    background-color: aqua;
+    float: left;
+    width:800px;
+    height: 200px; 
+}
+footer {
+    background-color: palevioletred;
+    width: 1000px;
+    height: 100px;
 }
